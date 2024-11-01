@@ -1,0 +1,281 @@
+# Copyright (C) 2017 Nice Login
+# This file is distributed under the same license as the Nice Login package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Nice Login 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/NiceLogin\n"
+"POT-Creation-Date: 2017-04-13 08:52+0530\n"
+"PO-Revision-Date: 2017-04-13 08:53+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: nice-login.php:85
+msgid "Email/User ID required."
+msgstr "Email/identifiant requis."
+
+#: nice-login.php:92 nice-login.php:103 nice-login.php:258
+msgid "This user does not exist."
+msgstr "Cet utilisateur n'existe pas."
+
+#: nice-login.php:115
+msgid "Reseting not allowed."
+msgstr "Réinitialisation n’a ne pas permise."
+
+#: nice-login.php:121
+msgid "Unknown error."
+msgstr "Erreur inconnue."
+
+#: nice-login.php:134
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+"Quelqu'un a demandé que le mot de passe du compte suivant soit réinitialisé:"
+
+#: nice-login.php:136
+msgid "Username: %s"
+msgstr "Nom d'utilisateur: %s"
+
+#: nice-login.php:137
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "Si c'était une erreur, ignorez ce courriel et rien ne se passera."
+
+#: nice-login.php:138
+msgid "To reset your password, visit the following address:"
+msgstr "Pour réinitialiser votre mot de passe, visitez l'adresse suivante:"
+
+#: nice-login.php:146
+msgid "[%s] Password Reset"
+msgstr "[%s] Réinitialisation du mot de passe"
+
+#: nice-login.php:161
+msgid "The e-mail could not be sent."
+msgstr "L'e-mail n'a pas été envoyé."
+
+#: nice-login.php:167
+msgid ""
+"Link for password reset has been emailed to you. Please check your email."
+msgstr ""
+"Le lien pour la réinitialisation du mot de passe vous a été envoyé par "
+"courrier électronique. Merci de consulter vos emails."
+
+#: nice-login.php:182
+msgid "Invalid user."
+msgstr "Utilisateur invalide."
+
+#: nice-login.php:198 nice-login.php:402
+msgid "Activate your account - %s"
+msgstr "Activez votre compte - %s"
+
+#: nice-login.php:198 nice-login.php:402
+msgid "Please activate your account at %s by visiting: %s"
+msgstr "Activez votre compte à %s en visitant: %s"
+
+#: nice-login.php:204
+msgid "Activation email sent successfully."
+msgstr "Message d'activation envoyé avec succès."
+
+#: nice-login.php:208
+msgid "Activation email sending failed. Please try again."
+msgstr "L'envoi par e-mail d'activation a échoué. Veuillez réessayer."
+
+#: nice-login.php:213
+msgid "This user is already activated."
+msgstr "Cet utilisateur est déjà activé."
+
+#: nice-login.php:236 nice-login.php:319
+msgid "Email is required."
+msgstr "Email est requis."
+
+#: nice-login.php:239 nice-login.php:322
+msgid "Invalid email address."
+msgstr "Email invalide."
+
+#: nice-login.php:244 nice-login.php:326
+msgid "Password is required."
+msgstr "Mot de passe requis."
+
+#: nice-login.php:267 nice-login.php:434
+msgid "User is not activated."
+msgstr "Cet utilisateur n’est pas activé."
+
+#: nice-login.php:267 nice-login.php:434
+msgid "Resend activation link."
+msgstr "Renvoyer le lien d’activation."
+
+#: nice-login.php:294
+msgid "Login success, refreshing page..."
+msgstr "Login succès, page rafraîchissante …"
+
+#: nice-login.php:330
+msgid "Password should contain minimum 6 characters."
+msgstr "Le mot de passe doit contenir au moins 6 caractères."
+
+#: nice-login.php:334
+msgid "Password should contain maximum 60 characters."
+msgstr "Le mot de passe doit contenir au maximum 60 caractères."
+
+#: nice-login.php:338
+msgid "Passwords do not match."
+msgstr "Les mots de passe ne correspondent pas."
+
+#: nice-login.php:342
+msgid "First name should contain maximum 60 characters."
+msgstr "Le prénom doit contenir au maximum 60 caractères."
+
+#: nice-login.php:346
+msgid "Please enter your first name."
+msgstr "SVP, entrez votre prénom."
+
+#: nice-login.php:350
+msgid "Please enter your last name."
+msgstr "SVP, entrez votre nom."
+
+#: nice-login.php:355
+msgid "Last name should contain maximum 60 characters."
+msgstr "Le nom de famille doit contenir au maximum 60 caractères."
+
+#: nice-login.php:405
+msgid ""
+"An activation email has been sent to your email address, you should activate "
+"your account by visiting the activation link"
+msgstr ""
+"Un email d’activation a été envoyé à votre adresse e-mail, vous devez "
+"activer votre compte en visitant le lien d’activation"
+
+#: nice-login.php:431
+msgid "<strong>ERROR</strong>: Invalid username or incorrect password."
+msgstr ""
+"<strong>ERROR</strong>: Nom d'utilisateur invalide ou mot de passe incorrect."
+
+#: nice-login.php:477
+msgid "Invalid User ID."
+msgstr "Identifiant invalide."
+
+#: nice-login.php:484
+msgid "Invalid activation code."
+msgstr "Code d’activation invalide."
+
+#: nice-login.php:484
+msgid "Resend activation link"
+msgstr "Renvoyer le lien d’activation"
+
+#: nice-login.php:495
+msgid "Log In"
+msgstr "Connectez-vous"
+
+#: nice-login.php:498 nice-login.php:532
+msgid "Email"
+msgstr "Email"
+
+#: nice-login.php:502 nice-login.php:536
+msgid "Password"
+msgstr "Mot de passe"
+
+#: nice-login.php:508 nice-login.php:557
+msgid "Remember me"
+msgstr "Souvenez-vous de moi"
+
+#: nice-login.php:516
+msgid "Login"
+msgstr "Connectez-vous"
+
+#: nice-login.php:517
+msgid "Register"
+msgstr "Créer un compte"
+
+#: nice-login.php:523
+msgid "Forgot password?"
+msgstr "Mot de passe oublié ?"
+
+#: nice-login.php:529
+msgid "Create an account"
+msgstr "Créer un compte"
+
+#: nice-login.php:540
+msgid "Re-Type Password"
+msgstr "Retaper le mot de passe"
+
+#: nice-login.php:544
+msgid "Name"
+msgstr "Nom"
+
+#: nice-login.php:547
+msgid "First Name"
+msgstr "Prénom"
+
+#: nice-login.php:550
+msgid "Last Name"
+msgstr "Nom"
+
+#: nice-login.php:563
+msgid "Subscribe to our newsletter"
+msgstr "J’aimerais être abonné à l’infolettre"
+
+#: nice-login.php:572
+msgid "Create account"
+msgstr "Créer un compte"
+
+#: nice-login.php:577
+msgid "Already registered? Log In"
+msgstr "Déjà enregistré? S'identifier"
+
+#: nice-login.php:582
+msgid "Forgot password"
+msgstr "Mot de passe oublié"
+
+#: nice-login.php:585
+msgid "Email / User ID"
+msgstr "Email / ID utilisateur"
+
+#: nice-login.php:594
+msgid "Send reset password link"
+msgstr "Envoyer le lien de mot de passe reset"
+
+#: nice-login.php:599
+msgid "Login/Register"
+msgstr "Connectez-vous / Inscrivez-vous"
+
+#. Plugin Name of the plugin/theme
+msgid "Wordpress Nice Login"
+msgstr "Wordpress Nice Login"
+
+#. Description of the plugin/theme
+msgid "User friendly ajax based wordpress login/register."
+msgstr "User friendly ajax based wordpress login/register."
+
+#. Author of the plugin/theme
+msgid "Hassan Jamal"
+msgstr "Hassan Jamal"
+
+#. Author URI of the plugin/theme
+msgid "http://www.webocado.com/"
+msgstr "http://www.webocado.com/"
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: User is not activated.<br /><a id="
+#~ "\"webocado_nl_resend_activation_link\" class="
+#~ "\"webocado_nl_resend_activation_link\" data-userid=\"%s\" href="
+#~ "\"javascript:;\">Resend activation link</a><div id="
+#~ "\"webocado_nl_resend_activation_link_response\" class="
+#~ "\"webocado_nl_resend_activation_link_response\"></div>"
+#~ msgstr ""
+#~ "<strong>ERROR</strong>: L'utilisateur n'est pas activé.<br /><a id="
+#~ "\"resend_activation_link\" data-userid=\"%s\" href=\"javascript:;"
+#~ "\">Renvoyer le lien d'activation</a><div id="
+#~ "\"resend_activation_link_response\"></div>"
+
+#~ msgid ""
+#~ "<div id=\"nl_invalid_activation\"><span id=\"nl_inv_close\"></"
+#~ "span>Invalid activation code.<br /><a id=\"resend_invalid_activation_link"
+#~ "\" data-userid=\"%s\" href=\"javascript:;\">Resend activation link</"
+#~ "a><div id=\"resend_invalid_activation_link_response\"></div></div>"
+#~ msgstr ""
+#~ "<div id=“nl_invalid_activation”><span id=“nl_inv_close”></span>Code "
+#~ "d’activation invalide<br /><a id=“resend_invalid_activation_link” data-"
+#~ "userid=“%s” href=“javascript:;”>Renvoyer le lien d’activation</a><div "
+#~ "id=“resend_invalid_activation_link_response”></div></div>"

@@ -1,0 +1,225 @@
+#webocado_nl_forms,#webocado_nl_invalid_activation
+{
+	width:95%;
+	max-width: 800px;
+	z-index: 99999999;
+	display: none;
+	position: fixed;
+	background: #fff;
+	box-sizing: border-box;
+	padding: 20px;
+	overflow: hidden;
+}
+#webocado_nl_forms p.webocado_nl_notice,#webocado_nl_invalid_activation p.webocado_nl_notice{
+	padding: 30px;
+}
+#webocado_nl_close,#webocado_nl_inv_close{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 30px;
+	height: 30px;
+	background: url(images/x.png);
+	cursor: pointer;
+	z-index: 99999
+}
+#webocado_nl_forms *{
+	box-sizing: border-box !important;
+}
+#webocado_nl_forms .webocado_nl_wrap,#webocado_nl_invalid_activation .webocado_nl_wrap
+{
+	position: absolute;
+	left: 0;
+	width: 300%;
+	-webkit-transition: all 500ms;
+	-moz-transition:  all 500ms;
+	-o-transition:  all 500ms;
+	transition:  all 500ms;
+	top: 0;
+}
+#webocado_nl_forms form,#webocado_nl_invalid_activation .webocado_nl_cont{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 33.33%;
+	padding: 60px 0 20px;
+}
+#webocado_nl_invalid_activation .webocado_nl_cont{
+	padding: 30px
+}
+#webocado_nl_invalid_activation .webocado_nl_cont,#webocado_nl_invalid_activation .webocado_nl_wrap{
+	width: 100%;
+}
+#webocado_nl_forms ul li{
+	list-style: none;
+	color: red;
+}
+#webocado_nl_forms #webocado_nl_register_form{
+	left: 33.33%;
+}
+#webocado_nl_forms #webocado_nl_forgot_form
+{
+	left: 66.66%
+}
+#webocado_nl_forms form.webocado_nl_loading:after{
+	display: block;
+}
+#webocado_nl_forms form:after{
+	content: ' ';
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(255,255,255,0.3) url(images/ellipsis.gif) center center no-repeat;
+	display: none;
+}
+#webocado_nl_forms .webocado_nl_bottom a{
+	color: #999
+}
+#webocado_nl_overlay{
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(0,0,0,0.5);
+	z-index: 9999999;
+	display: none;
+}
+.webocado_nl_field{
+	padding: 15px 30px;
+	overflow: hidden;
+}
+.webocado_nl_field label,.webocado_nl_field input{
+	float: left;
+	display: block;
+}
+.webocado_nl_field label{
+	width: 30%;
+	font-size: 25px;
+	line-height: 1
+}
+.webocado_nl_field input[type="text"],.webocado_nl_field .webocado_nl_input,.webocado_nl_field input[type="password"]{
+	width: 65%;
+	float: right;
+	overflow: hidden;
+}
+.webocado_nl_field input[type="text"],
+.webocado_nl_field input[type="password"]{
+	height: 40px;
+	box-sizing: border-box;
+	padding: 5px 5px 5px 15px;
+	font-size: 20px;
+	line-height: 1;
+	border: 1px solid #999;
+}
+.webocado_nl_half{
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+	padding-right: 10px;
+}
+.webocado_nl_half input[type="text"],.webocado_nl_half input[type="password"]{
+	width: 100%;
+}
+.webocado_nl_half:last-child{
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+	padding-right: 0px;
+}
+.webocado_nl_field .webocado_nl_cb label {
+	width: auto;
+    padding-left: 31px;
+    font-size: 17px;
+    padding-top: 3px;
+    position: relative;
+    left: -28px;
+}
+.webocado_nl_cb_wrap{
+	float: left;
+	height: 24px;
+}
+.webocado_nl_cb input{
+	display: none;
+}
+.webocado_nl_cb input + span{
+	display: inline-block;
+	width: 28px;
+	height: 24px;
+	background: url(images/cb.jpg) ;
+}
+.webocado_nl_cb input:checked + span{
+	background: url(images/cb_c.jpg) ;
+}
+#webocado_nl_forms h1{
+	font-size: 40px;
+	font-weight: bold;
+	padding: 0px 0 30px;
+	margin: 0 30px 30px;
+	border-bottom: 1px solid #999;
+	color: #d66720
+}
+#webocado_nl_forms .webocado_nl_r{
+	color: #d66720
+}
+#webocado_nl_forms .webocado_nl_btn{
+	background: #d66720;
+	border: 0;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 5px 25px;
+	font-family: "Titillium Web";
+	font-weight: 400;
+}
+#webocado_nl_forms .webocado_nl_mid{
+	display: inline-block;
+	border-radius: 50%;
+	background: #154c7b;
+	margin: 0 10px;
+	padding: 1px 4px;
+	color: #fff;
+	font-family: "Titillium Web";
+}
+
+
+@media only screen and (max-width:767px)
+{
+	#webocado_nl_forms form, #webocado_nl_invalid_activation .webocado_nl_cont {
+		padding: 40px 0 20px;
+	}
+	#webocado_nl_forms h1 {
+		font-size: 30px;
+		padding: 0 0 15px;
+		margin: 0 20px 20px;
+	}
+	.webocado_nl_field label {
+		font-size: 20px;
+	}
+	.webocado_nl_field input[type="text"], .webocado_nl_field input[type="password"] {
+		height: 30px;
+		font-size: 17px;
+	}
+	.webocado_nl_field {
+		padding: 8px 30px;
+	}
+}
+
+
+@media only screen and (max-width:550px)
+{
+	.webocado_nl_field input[type="text"], .webocado_nl_field .webocado_nl_input, .webocado_nl_field input[type="password"]{
+		width: 100%
+	}
+	.webocado_nl_field label {
+		width: 100%;
+		float: none;
+	}
+	.webocado_nl_field .webocado_nl_cb label {
+		float: left;
+	}
+	#webocado_nl_forms .webocado_nl_btn {
+		margin-bottom: 10px;
+	}
+}

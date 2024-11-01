@@ -1,0 +1,248 @@
+# Copyright (C) 2017 Wordpress Nice Login
+# This file is distributed under the same license as the Wordpress Nice Login package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Wordpress Nice Login 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/NiceLogin\n"
+"POT-Creation-Date: 2017-04-13 03:21:05+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: nice-login.php:85
+msgid "Email/User ID required."
+msgstr ""
+
+#: nice-login.php:92 nice-login.php:103 nice-login.php:258
+msgid "This user does not exist."
+msgstr ""
+
+#: nice-login.php:115
+msgid "Reseting not allowed."
+msgstr ""
+
+#: nice-login.php:121
+msgid "Unknown error."
+msgstr ""
+
+#: nice-login.php:134
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: nice-login.php:136
+msgid "Username: %s"
+msgstr ""
+
+#: nice-login.php:137
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: nice-login.php:138
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: nice-login.php:146
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: nice-login.php:161
+msgid "The e-mail could not be sent."
+msgstr ""
+
+#: nice-login.php:167
+msgid ""
+"Link for password reset has been emailed to you. Please check your email."
+msgstr ""
+
+#: nice-login.php:182
+msgid "Invalid user."
+msgstr ""
+
+#: nice-login.php:198 nice-login.php:402
+msgid "Activate your account - %s"
+msgstr ""
+
+#: nice-login.php:198 nice-login.php:402
+msgid "Please activate your account at %s by visiting: %s"
+msgstr ""
+
+#: nice-login.php:204
+msgid "Activation email sent successfully."
+msgstr ""
+
+#: nice-login.php:208
+msgid "Activation email sending failed. Please try again."
+msgstr ""
+
+#: nice-login.php:213
+msgid "This user is already activated."
+msgstr ""
+
+#: nice-login.php:236 nice-login.php:319
+msgid "Email is required."
+msgstr ""
+
+#: nice-login.php:239 nice-login.php:322
+msgid "Invalid email address."
+msgstr ""
+
+#: nice-login.php:244 nice-login.php:326
+msgid "Password is required."
+msgstr ""
+
+#: nice-login.php:267 nice-login.php:434
+msgid "User is not activated."
+msgstr ""
+
+#: nice-login.php:267 nice-login.php:434
+msgid "Resend activation link."
+msgstr ""
+
+#: nice-login.php:294
+msgid "Login success, refreshing page..."
+msgstr ""
+
+#: nice-login.php:330
+msgid "Password should contain minimum 6 characters."
+msgstr ""
+
+#: nice-login.php:334
+msgid "Password should contain maximum 60 characters."
+msgstr ""
+
+#: nice-login.php:338
+msgid "Passwords do not match."
+msgstr ""
+
+#: nice-login.php:342
+msgid "First name should contain maximum 60 characters."
+msgstr ""
+
+#: nice-login.php:346
+msgid "Please enter your first name."
+msgstr ""
+
+#: nice-login.php:350
+msgid "Please enter your last name."
+msgstr ""
+
+#: nice-login.php:355
+msgid "Last name should contain maximum 60 characters."
+msgstr ""
+
+#: nice-login.php:405
+msgid ""
+"An activation email has been sent to your email address, you should activate "
+"your account by visiting the activation link"
+msgstr ""
+
+#: nice-login.php:431
+msgid "<strong>ERROR</strong>: Invalid username or incorrect password."
+msgstr ""
+
+#: nice-login.php:477
+msgid "Invalid User ID."
+msgstr ""
+
+#: nice-login.php:484
+msgid "Invalid activation code."
+msgstr ""
+
+#: nice-login.php:484
+msgid "Resend activation link"
+msgstr ""
+
+#: nice-login.php:495
+msgid "Log In"
+msgstr ""
+
+#: nice-login.php:498 nice-login.php:532
+msgid "Email"
+msgstr ""
+
+#: nice-login.php:502 nice-login.php:536
+msgid "Password"
+msgstr ""
+
+#: nice-login.php:508 nice-login.php:557
+msgid "Remember me"
+msgstr ""
+
+#: nice-login.php:516
+msgid "Login"
+msgstr ""
+
+#: nice-login.php:517
+msgid "Register"
+msgstr ""
+
+#: nice-login.php:523
+msgid "Forgot password?"
+msgstr ""
+
+#: nice-login.php:529
+msgid "Create an account"
+msgstr ""
+
+#: nice-login.php:540
+msgid "Re-Type Password"
+msgstr ""
+
+#: nice-login.php:544
+msgid "Name"
+msgstr ""
+
+#: nice-login.php:547
+msgid "First Name"
+msgstr ""
+
+#: nice-login.php:550
+msgid "Last Name"
+msgstr ""
+
+#: nice-login.php:563
+msgid "Subscribe to our newsletter"
+msgstr ""
+
+#: nice-login.php:572
+msgid "Create account"
+msgstr ""
+
+#: nice-login.php:577
+msgid "Already registered? Log In"
+msgstr ""
+
+#: nice-login.php:582
+msgid "Forgot password"
+msgstr ""
+
+#: nice-login.php:585
+msgid "Email / User ID"
+msgstr ""
+
+#: nice-login.php:594
+msgid "Send reset password link"
+msgstr ""
+
+#: nice-login.php:599
+msgid "Login/Register"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Wordpress Nice Login"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "User friendly ajax based wordpress login/register."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Hassan Jamal"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.webocado.com/"
+msgstr ""
